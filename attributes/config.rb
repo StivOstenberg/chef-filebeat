@@ -59,6 +59,44 @@ default['filebeat']['config']['output'] = {}
 # default['filebeat']['config']['output']['redis']['timeout'] = 5
 # default['filebeat']['config']['output']['redis']['reconnect_interval'] = 1
 
+
+# Kafka Output config attributes
+# default['filebeat']['config']['output']['kafka]['enabled'] = true
+# default['filebeat']['config']['output']['kafka]['hosts'] = ['hostname:port']
+# default['filebeat']['config']['output']['kafka]['topic'] =  'beats'
+# default['filebeat']['config']['output']['kafka]['key'] =  ''
+# default['filebeat']['config']['output']['kafka]['partition.hash']['reachable_only'] =  false
+# default['filebeat']['config']['output']['kafka]['partition.hash']['hash'] =  []
+# default['filebeat']['config']['output']['kafka]['username'] = ''
+# default['filebeat']['config']['output']['kafka]['password'] = ''
+# default['filebeat']['config']['output']['kafka]['version'] = '0.8.2.0'
+# default['filebeat']['config']['output']['kafka]['metadata']['retry.max'] = 10
+# default['filebeat']['config']['output']['kafka]['metadata']['retry.backoff'] = '750ms'
+# default['filebeat']['config']['output']['kafka]['metadata']['refresh_frequency'] = '10m'
+# default['filebeat']['config']['output']['kafka]['worker'] = 1
+# default['filebeat']['config']['output']['kafka]['max_retries'] = 3
+# default['filebeat']['config']['output']['kafka]['bulk_max_size'] = 2048
+# default['filebeat']['config']['output']['kafka]['timeout'] = '30s'
+# default['filebeat']['config']['output']['kafka]['broker_timeout'] = '10s'
+# default['filebeat']['config']['output']['kafka]['channel_buffer_size'] = 256
+# default['filebeat']['config']['output']['kafka]['keep_alive'] = 0
+# default['filebeat']['config']['output']['kafka]['compression'] = 'gzip'
+# default['filebeat']['config']['output']['kafka]['max_message_bytes'] = 1000000
+# default['filebeat']['config']['output']['kafka]['required_acks'] = 1
+# default['filebeat']['config']['output']['kafka]['flush_interval'] = '1s'
+# default['filebeat']['config']['output']['kafka]['client_id'] = 'beats'
+# default['filebeat']['config']['output']['kafka]['ssl.enabled'] = true
+# default['filebeat']['config']['output']['kafka]['ssl.certificate_authorities'] = ['gzip']
+# default['filebeat']['config']['output']['kafka]['ssl.verification_mode'] = 'full
+# default['filebeat']['config']['output']['kafka]['ssl.supported_protocols'] = ['TLSv1.0','TLSv1.1','TLSv1.2']
+# default['filebeat']['config']['output']['kafka]['ssl.certificate'] = '/etc/pki/client/cert.pem'
+# default['filebeat']['config']['output']['kafka]['ssl.key'] = '/etc/pki/client/cert.key'
+# default['filebeat']['config']['output']['kafka]['ssl.key_passphrase'] = ''
+# default['filebeat']['config']['output']['kafka]['ssl.cipher_suites'] = []
+# default['filebeat']['config']['output']['kafka]['ssl.curve_types'] = []
+
+
+
 # Logging Output attributes
 # default['filebeat']['config']['logging']['to_files'] = true
 # if node['platform'] == 'windows'
